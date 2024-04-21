@@ -1,0 +1,176 @@
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+div{
+	width: 100%; 
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: transparent; 
+	text-align: center;
+}
+
+div h1{
+	color: white;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.name a{
+    font-size: 30px;
+    font-family: arial;
+    margin: 30px 0;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+    background-color: transparent;
+
+}
+
+.name{
+	font-size: 30px;
+	font-weight: bold;
+	color: darkgreen;
+	background-color: transparent;
+}
+
+.image{
+	width: 200px;
+	height: 200px; 
+	border-radius: 100%;
+	border: 5px solid black;
+	size: 150px;
+}
+
+
+.image:hover{
+	border-radius: 8px;
+}
+
+div h2{
+	color: white;
+	font-size: 48px;
+	margin: 10px;
+	margin-top: 20px;
+    width: 100%;
+}
+
+#second-div h3{
+    text-transform: uppercase;
+    background-color: darkgreen;
+    outline-color: black;
+    color: white;
+	font-size: 40px;
+	margin: 10px;
+	margin-top: 20px;
+    width: 100%;
+    text-align: start;
+
+}
+
+.intro{
+	color: black;
+
+}
+
+.intro p{
+	text-align: start;
+}
+
+#self-introduction p{
+	margin: 20px 0 50px 0;
+	letter-spacing: 1.5px;
+	text-indent: 50px;
+}
+
+.education h4{
+	width: 100%;
+	text-align: start;
+	position: relative;
+	background-color: darkgreen;
+}
+
+
+.education h4{
+    text-transform: uppercase;
+    background-color: darkgreen;
+    outline-color: black;
+    color: white;
+	font-size: 40px;
+	margin: 10px;
+	margin-top: 20px;
+    width: 100%;
+}
+
+.education table{
+    width: 100%;
+    font-family: Arial;
+    border-collapse: collapse border;
+}
+
+.education thead{
+    background-color: darkgreen;
+	color: white;
+	border: 2px solid black;
+}
+
+.education table,td{
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+.expertise{
+    position: relative;
+    width: 100%;
+}
+
+.expertise h3{
+	width: 100%;
+	background-color: darkgreen;
+	text-align: start;
+	font-size: 40px;
+	color: white;
+}
+
+.expertise ul{
+    list-style-type: square;
+    padding-left: 15px;
+    padding-right: 15px;
+	letter-spacing: 1px;
+	text-align: start;
+
+}
+
+.it-background h4{
+    text-transform: uppercase;
+    background-color: darkgreen;
+    outline-color: black;
+    color: white;
+	font-size: 40px;
+	margin: 10px;
+    width: 100%;
+    text-align: start;
+}
+
+.it-background p{
+	text-align: start;
+}
+
+.Applications h4{
+    text-transform: uppercase;
+    background-color: darkgreen;
+    outline-color: black;
+    color: white;
+	font-size: 40px;
+	margin: 10px;
+    width: 100%;
+    text-align: start;
+}
+
+.Applications ol{
+	text-align: start;
+}
